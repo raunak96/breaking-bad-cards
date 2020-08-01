@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/breaking-bad-cards/static/css/main.3ad5b5b2.chunk.css",
+    "main.js": "/breaking-bad-cards/static/js/main.49c116a8.chunk.js",
+    "main.js.map": "/breaking-bad-cards/static/js/main.49c116a8.chunk.js.map",
+    "runtime-main.js": "/breaking-bad-cards/static/js/runtime-main.dd0c622e.js",
+    "runtime-main.js.map": "/breaking-bad-cards/static/js/runtime-main.dd0c622e.js.map",
+    "static/js/2.42516c04.chunk.js": "/breaking-bad-cards/static/js/2.42516c04.chunk.js",
+    "static/js/2.42516c04.chunk.js.map": "/breaking-bad-cards/static/js/2.42516c04.chunk.js.map",
+    "index.html": "/breaking-bad-cards/index.html",
+    "precache-manifest.a302f0392bca1df98864f205e1121d06.js": "/breaking-bad-cards/precache-manifest.a302f0392bca1df98864f205e1121d06.js",
+    "service-worker.js": "/breaking-bad-cards/service-worker.js",
+    "static/css/main.3ad5b5b2.chunk.css.map": "/breaking-bad-cards/static/css/main.3ad5b5b2.chunk.css.map",
+    "static/js/2.42516c04.chunk.js.LICENSE.txt": "/breaking-bad-cards/static/js/2.42516c04.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/breaking-bad-cards/static/media/bg.1be2d3a0.jpg",
+    "static/media/logo.png": "/breaking-bad-cards/static/media/logo.3795f66d.png",
+    "static/media/spinner.gif": "/breaking-bad-cards/static/media/spinner.235b9b3e.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd0c622e.js",
+    "static/js/2.42516c04.chunk.js",
+    "static/css/main.3ad5b5b2.chunk.css",
+    "static/js/main.49c116a8.chunk.js"
+  ]
+}
