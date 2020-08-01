@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import useFetch from "./effects/useFetch";
+import CharactersGrid from "./components/CharactersGrid";
+import SearchBox from "./components/SearchBox";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    const [searchQuery,setQuery]= useState("");
+    const { cast, isLoading } = useFetch(`https://www.breakingbadapi.com/api/characters?name=${searchQuery}`);
+    return (
+        <div className="container">
+            <Header />
+            <SearchBox handleSubmit={(query)=>setQuery(query)} />
+            <CharactersGrid isLoading={isLoading} cast={cast} />
+        </div>
+    );
+};
 
 export default App;
